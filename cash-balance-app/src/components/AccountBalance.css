@@ -1,0 +1,63 @@
+.account-balance {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.account-balance h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.account-balance p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
+.account-balance input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+  
+.account-balance button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.account-balancebutton:hover,
+.account-balancebutton:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.account-balancebutton:active {
+  opacity: .5;
+}
